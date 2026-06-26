@@ -59,7 +59,7 @@ When filesystem access is available, prefer creating a run folder before
 generating many artifacts:
 
 ```bash
-python scripts/wq_brain_alpha.py init \
+python3 scripts/wq_brain_alpha.py init \
   --source-title "<paper or idea title>" \
   --source-path "<path-or-url>" \
   --output-root outputs
@@ -68,7 +68,7 @@ python scripts/wq_brain_alpha.py init \
 Append candidate rows:
 
 ```bash
-python scripts/wq_brain_alpha.py append-candidate \
+python3 scripts/wq_brain_alpha.py append-candidate \
   --run-dir outputs/<run_id> \
   --candidate-id "<candidate-id>" \
   --hypothesis-id "H01" \
@@ -79,10 +79,21 @@ python scripts/wq_brain_alpha.py append-candidate \
 Validate artifact shape:
 
 ```bash
-python scripts/wq_brain_alpha.py validate --run-dir outputs/<run_id>
+python3 scripts/wq_brain_alpha.py validate --run-dir outputs/<run_id>
 ```
 
 The CLI never stores credentials and never calls WorldQuant BRAIN.
+
+## Command Shortcuts
+
+When the host supports plugin commands, use these shortcuts for common tasks:
+
+- `/brain-setup` checks local CLI/test availability.
+- `/brain-init-run` creates a local run folder.
+- `/brain-intake` turns a source into a research card.
+- `/brain-generate-candidates` drafts a controlled candidate batch.
+- `/brain-validate-run` checks local artifact shape.
+- `/brain-repair` diagnoses failed or near-pass simulation results.
 
 ## Safety Rules
 

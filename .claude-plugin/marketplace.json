@@ -6,13 +6,13 @@
     "url": "https://github.com/nutdnuy"
   },
   "metadata": {
-    "description": "Claude-compatible plugin for WorldQuant BRAIN paper-to-alpha research workflows, candidate generation, validation guardrails, repair loops, and memory records."
+    "description": "Claude-compatible Agent-native plugin for WorldQuant BRAIN paper-to-alpha research workflows, candidate generation, validation guardrails, repair loops, and memory records."
   },
   "plugins": [
     {
       "name": "brain-paper-to-alpha-plugin",
       "description": "Turn papers, reports, and research ideas into disciplined WorldQuant BRAIN alpha research artifacts.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "source": "./",
       "author": {
         "name": "nutdnuy",
