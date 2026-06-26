@@ -1,0 +1,23 @@
+{
+  "name": "wq-brain-alpha",
+  "description": "Marketplace for the WQ BRAIN Alpha plugin.",
+  "owner": {
+    "name": "nutdnuy",
+    "url": "https://github.com/nutdnuy"
+  },
+  "metadata": {
+    "description": "Claude-compatible plugin for WorldQuant BRAIN paper-to-alpha research workflows, candidate generation, validation guardrails, repair loops, and memory records."
+  },
+  "plugins": [
+    {
+      "name": "wq-brain-alpha",
+      "description": "Turn papers, reports, and research ideas into disciplined WorldQuant BRAIN alpha research artifacts.",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "nutdnuy",
+        "url": "https://github.com/nutdnuy"
+      }
+    }
+  ]
+}

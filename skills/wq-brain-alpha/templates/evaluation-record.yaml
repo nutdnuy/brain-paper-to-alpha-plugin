@@ -1,0 +1,28 @@
+candidate_id:
+brain_alpha_id:
+run_path:
+settings:
+  region:
+  universe:
+  delay:
+  neutralization:
+  decay:
+  truncation:
+metrics:
+  sharpe:
+  fitness:
+  turnover:
+  returns:
+  drawdown:
+  margin:
+  subuniverse_sharpe:
+checks:
+  hard_checks:
+  self_correlation:
+  iqc_performance:
+warnings:
+diagnosis:
+decision:
+  status:
+  reason:
+  next_repair:

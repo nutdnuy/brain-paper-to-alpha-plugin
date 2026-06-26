@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+outputs/
+*.env
+.env
+*cookie*
+*Cookie*
+*session*
+*.pkl
+*.pickle

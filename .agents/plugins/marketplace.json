@@ -1,0 +1,20 @@
+{
+  "name": "wq-brain-alpha",
+  "interface": {
+    "displayName": "WQ BRAIN Alpha"
+  },
+  "plugins": [
+    {
+      "name": "wq-brain-alpha",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data & Analytics"
+    }
+  ]
+}

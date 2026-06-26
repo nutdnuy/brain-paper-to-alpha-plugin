@@ -1,0 +1,40 @@
+{
+  "name": "wq-brain-alpha",
+  "version": "0.1.0",
+  "description": "Paper-to-alpha workflow plugin for WorldQuant BRAIN research, candidate generation, simulation handoff, repair, and memory logging.",
+  "author": {
+    "name": "nutdnuy",
+    "url": "https://github.com/nutdnuy"
+  },
+  "homepage": "https://github.com/nutdnuy/wq-brain-alpha",
+  "repository": "https://github.com/nutdnuy/wq-brain-alpha",
+  "license": "MIT",
+  "keywords": [
+    "worldquant",
+    "brain",
+    "alpha",
+    "quant",
+    "paper-to-alpha",
+    "agentic-research"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "WQ BRAIN Alpha",
+    "shortDescription": "Turn papers and ideas into disciplined BRAIN alpha candidates.",
+    "longDescription": "A Claude Code and Codex plugin that adapts a paper-to-code pipeline into a WorldQuant BRAIN paper-to-alpha workflow. It guides source intake, hypothesis cards, BRAIN expression candidates, simulation queues, evaluation records, repair loops, and research memory without running live BRAIN simulations unless explicitly requested.",
+    "developerName": "nutdnuy",
+    "category": "Data & Analytics",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/nutdnuy/wq-brain-alpha",
+    "defaultPrompt": [
+      "Turn this paper into BRAIN alpha candidates.",
+      "Create a WQ alpha research run folder.",
+      "Repair this failed BRAIN alpha result."
+    ],
+    "brandColor": "#00A76F"
+  }
+}
