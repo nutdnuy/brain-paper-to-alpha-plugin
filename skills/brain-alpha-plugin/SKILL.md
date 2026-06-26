@@ -1,5 +1,5 @@
 ---
-name: wq-brain-alpha
+name: brain-alpha-plugin
 description: Use for WorldQuant BRAIN alpha research, paper-to-alpha workflows, BrainAlpha M0-M5 candidate generation, BRAIN expression triage, failed-alpha repair, simulation handoff, low-correlation pool review, or when the user mentions Paper_to_code, WorldQuant BRAIN, Brain alpha mining, IQC, alpha examples, alpha mutation, alpha mixing, NoSID, self-correlation, sub-universe, Sharpe, Fitness, or BRAIN simulator results.
 ---
 

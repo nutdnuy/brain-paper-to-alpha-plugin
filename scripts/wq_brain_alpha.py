@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Local artifact helper for the wq-brain-alpha plugin.
+"""Local artifact helper for the brain-alpha-plugin plugin.
 
 This script creates and validates paper-to-alpha run folders. It intentionally
 does not authenticate to WorldQuant BRAIN or run live simulations.
@@ -76,7 +76,7 @@ def write_csv_header_if_missing(path: Path, columns: list[str]) -> None:
 
 def load_template(name: str) -> str:
     root = Path(__file__).resolve().parents[1]
-    template_path = root / "skills" / "wq-brain-alpha" / "templates" / name
+    template_path = root / "skills" / "brain-alpha-plugin" / "templates" / name
     return template_path.read_text(encoding="utf-8")
 
 

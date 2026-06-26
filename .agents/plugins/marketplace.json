@@ -1,11 +1,11 @@
 {
-  "name": "wq-brain-alpha",
+  "name": "brain-alpha-plugin",
   "interface": {
     "displayName": "WQ BRAIN Alpha"
   },
   "plugins": [
     {
-      "name": "wq-brain-alpha",
+      "name": "brain-alpha-plugin",
       "source": {
         "source": "local",
         "path": "./"

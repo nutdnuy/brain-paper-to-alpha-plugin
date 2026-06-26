@@ -1,13 +1,13 @@
 {
-  "name": "wq-brain-alpha",
+  "name": "brain-alpha-plugin",
   "version": "0.1.0",
   "description": "Paper-to-alpha workflow plugin for WorldQuant BRAIN research, candidate generation, simulation handoff, repair, and memory logging.",
   "author": {
     "name": "nutdnuy",
     "url": "https://github.com/nutdnuy"
   },
-  "homepage": "https://github.com/nutdnuy/wq-brain-alpha",
-  "repository": "https://github.com/nutdnuy/wq-brain-alpha",
+  "homepage": "https://github.com/nutdnuy/brain-alpha-plugin",
+  "repository": "https://github.com/nutdnuy/brain-alpha-plugin",
   "license": "MIT",
   "keywords": [
     "worldquant",
@@ -29,7 +29,7 @@
       "Write",
       "Interactive"
     ],
-    "websiteURL": "https://github.com/nutdnuy/wq-brain-alpha",
+    "websiteURL": "https://github.com/nutdnuy/brain-alpha-plugin",
     "defaultPrompt": [
       "Turn this paper into BRAIN alpha candidates.",
       "Create a WQ alpha research run folder.",
