@@ -1,13 +1,13 @@
 {
-  "name": "brain-alpha-plugin",
+  "name": "brain-paper-to-alpha-plugin",
   "version": "0.1.0",
   "description": "Paper-to-alpha workflow plugin for WorldQuant BRAIN research, candidate generation, simulation handoff, repair, and memory logging.",
   "author": {
     "name": "nutdnuy",
     "url": "https://github.com/nutdnuy"
   },
-  "homepage": "https://github.com/nutdnuy/brain-alpha-plugin",
-  "repository": "https://github.com/nutdnuy/brain-alpha-plugin",
+  "homepage": "https://github.com/nutdnuy/brain-paper-to-alpha-plugin",
+  "repository": "https://github.com/nutdnuy/brain-paper-to-alpha-plugin",
   "license": "MIT",
   "keywords": [
     "worldquant",
@@ -18,6 +18,6 @@
     "agentic-research"
   ],
   "skills": [
-    "./skills/brain-alpha-plugin"
+    "./skills/brain-paper-to-alpha-plugin"
   ]
 }

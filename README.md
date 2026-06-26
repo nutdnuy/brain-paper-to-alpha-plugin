@@ -1,4 +1,4 @@
-# brain-alpha-plugin
+# brain-paper-to-alpha-plugin
 
 Claude Code and Codex plugin for turning papers, reports, raw ideas, alpha
 examples, and failed WorldQuant BRAIN results into disciplined alpha research
@@ -21,10 +21,10 @@ workspace.
 ## Install In Codex
 
 ```bash
-codex plugin marketplace add nutdnuy/brain-alpha-plugin
+codex plugin marketplace add nutdnuy/brain-paper-to-alpha-plugin
 ```
 
-Then install `brain-alpha-plugin` from the Codex plugin UI.
+Then install `brain-paper-to-alpha-plugin` from the Codex plugin UI.
 
 The Codex plugin manifest is `.codex-plugin/plugin.json`; the GitHub
 marketplace manifest is `.agents/plugins/marketplace.json`.
@@ -34,8 +34,8 @@ marketplace manifest is `.agents/plugins/marketplace.json`.
 Add this GitHub repository as a marketplace:
 
 ```text
-/plugin marketplace add https://github.com/nutdnuy/brain-alpha-plugin
-/plugin install brain-alpha-plugin
+/plugin marketplace add https://github.com/nutdnuy/brain-paper-to-alpha-plugin
+/plugin install brain-paper-to-alpha-plugin
 ```
 
 The Claude plugin manifest is `.claude-plugin/plugin.json`; the marketplace
@@ -43,14 +43,14 @@ manifest is `.claude-plugin/marketplace.json`.
 
 ## Skill
 
-The main skill is `brain-alpha-plugin`.
+The main skill is `brain-paper-to-alpha-plugin`.
 
 Example prompts:
 
 ```text
-Use brain-alpha-plugin to turn this paper into BRAIN alpha candidates.
-Use brain-alpha-plugin to create a research run from this alpha idea.
-Use brain-alpha-plugin to diagnose and repair this failed simulation result.
+Use brain-paper-to-alpha-plugin to turn this paper into BRAIN alpha candidates.
+Use brain-paper-to-alpha-plugin to create a research run from this alpha idea.
+Use brain-paper-to-alpha-plugin to diagnose and repair this failed simulation result.
 ```
 
 ## Local Artifact CLI

@@ -1,5 +1,5 @@
 {
-  "name": "brain-alpha-plugin",
+  "name": "brain-paper-to-alpha-plugin",
   "description": "Marketplace for the WQ BRAIN Alpha plugin.",
   "owner": {
     "name": "nutdnuy",
@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "brain-alpha-plugin",
+      "name": "brain-paper-to-alpha-plugin",
       "description": "Turn papers, reports, and research ideas into disciplined WorldQuant BRAIN alpha research artifacts.",
       "version": "0.1.0",
       "source": "./",

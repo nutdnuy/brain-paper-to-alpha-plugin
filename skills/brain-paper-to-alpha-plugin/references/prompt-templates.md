@@ -3,7 +3,7 @@
 ## Source Intake
 
 ```text
-Use brain-alpha-plugin.
+Use brain-paper-to-alpha-plugin.
 
 Input source:
 <path, URL, pasted text, alpha expression, or simulation result>
@@ -16,7 +16,7 @@ research implications. Do not generate expressions yet.
 ## Research Card
 
 ```text
-Use brain-alpha-plugin.
+Use brain-paper-to-alpha-plugin.
 
 Create an Alpha Research Card with:
 - source
@@ -33,7 +33,7 @@ Create an Alpha Research Card with:
 ## Candidate Batch
 
 ```text
-Use brain-alpha-plugin.
+Use brain-paper-to-alpha-plugin.
 
 Generate 6 BRAIN expression candidates from this research card.
 Constraints:
@@ -47,7 +47,7 @@ Constraints:
 ## Repair Loop
 
 ```text
-Use brain-alpha-plugin.
+Use brain-paper-to-alpha-plugin.
 
 Diagnose this BRAIN result and propose the next repair batch:
 <metrics, failed checks, warnings, expression, settings>
@@ -62,7 +62,7 @@ Rules:
 ## Memory Update
 
 ```text
-Use brain-alpha-plugin.
+Use brain-paper-to-alpha-plugin.
 
 Create a memory update for this run:
 <research card, candidates, metrics, decisions>
